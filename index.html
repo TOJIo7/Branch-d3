@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-[#212121] text-[white]">
+    <header class="bg-[#1f1f1f]">
+        <div class="max-w-[1200px] mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between py-4 gap-4">
+                <div class="flex items-center gap-2">
+                    <img src="Refreshoes_LOGO копия 1.png" alt="">
+                </div>
+                <div class="text-sm text-gray-300 ml-[-290px]">
+                    <div>Время работы :</div>
+                    <div>11:00 до 20:00</div>
+                </div>
+                <img class="ml-[-290px] w-[90px]" src="Group 1102.png" alt="">
+                <div class="flex items-center gap-4">
+                    <img src="free-icon-font-marker-3916880 1.png" alt="">
+                    <p class="text-[white]">Lorem Ipsum is simply dummy <br>text of the printing.</p>
+                    <div class="bg-[#c28b53] text-white px-4 py-2 rounded-full text-sm"> +7 (999) 999-99-99 </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#b07a47]">
+            <div class="max-w-[1200px] mx-auto px-4">
+                <nav class="flex flex-col md:flex-row items-center justify-center gap-6 py-3 text-white text-sm">
+                    <a href="./src/page2.html">Page 2</a>
+                    <a href="">Page 3</a>
+                    <a href="">Page 4</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="relative">
+        <div class="max-w-[1400px] mx-auto h-[300px] md:h-[500px] bg-gray-700"><img src="Group 14.png" alt=""></div>
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2"></div>
+    </section>
+      <section class="py-16 mt-[100px]">
+        <div class="max-w-[1200px] mx-auto px-4">
+            <h1 class="text-[36px] md:text-[60px] font-bold mb-8">Заголовок H1 &nbsp;&nbsp; Font Inter 60px</h1>
+            <div class="text-sm text-gray-400 mb-10">
+                <div>Хлебные крошки</div>
+                <div class="mt-1">Главная - Главная - Главная</div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-[#1a1a1a] p-8 rounded-2xl shadow-xl">
+                    <h2 class="text-2xl text-[#c28b53] font-bold mb-6">Заполните поля</h2>
+                    <form class="flex flex-col gap-4">
+                        <input type="text" placeholder="Имя"
+                            class="bg-transparent border border-gray-600 rounded-full px-5 py-3 outline-none" />
+                        <input type="tel" placeholder="Телефон"
+                            class="bg-transparent border border-gray-600 rounded-full px-5 py-3 outline-none" />
+                        <input type="email" placeholder="E-mail"
+                            class="bg-transparent border border-gray-600 rounded-full px-5 py-3 outline-none" />
+                        <label class="flex items-center gap-2 text-sm text-gray-400 mt-2">
+                            <input type="checkbox" class="accent-[#c28b53]">Соглашаюсь на обработку персональных
+                            данных</label>
+                        <button type="submit" class="mt-4 bg-[#c28b53] text-white py-3 rounded-full"> Отправить</button>
+                    </form>
+                </div>
+                <div class="bg-[#1a1a1a] p-6  rounded-2xl shadow-xl">
+                    <h2 class="text-2xl text-[#c28b53] font-bold mb-6"> Авторизации</h2>
+                    <form class="flex flex-col gap-4">
+                        <input type="email" placeholder="E-mail"
+                            class="bg-transparent border border-gray-600 rounded-full px-5 py-3 outline-none" />
+                        <div class="relative">
+                            <input type="password" placeholder="Пароль"
+                                class="w-full bg-transparent border border-gray-600 rounded-full px-5 py-3 outline-none" />
+                            <div class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full">
+                                <img src="ph_eye-closed-light.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-sm text-[#c28b53] text-right"> Восстановить пароль </div>
+                        <button type="submit" class="mt-4 bg-[#c28b53] text-white py-3 rounded-full"> Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="max-w-[1200px] mx-auto px-4 py-10">
+        <div class="grid lg:grid-cols-2 gap-10 items-start">
+            <div class="space-y-8">
+                <h1 class="text-2xl md:text-3xl font-semibold">элементы чекбоксов, радио кнопок, выбор из списка</h1>
+                <div class="max-w-[1200px] m-auto px-4 py-10">
+                    <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
+                        <div class="w-full lg:w-1/2">
+                            <p class="text-sm text-gray-300 mb-6 leading-relaxed"> элементы чекбоксов, радио кнопок,
+                                выбор из списка</p>
+                            <div class="space-y-4">
+                                <label class="flex items-center gap-3 cursor-pointer select-none">
+                                    <input type="checkbox" class="w-4 h-4 accent-orange-500">
+                                    <span class="text-sm text-gray-300">
+                                        Соглашаюсь на обработку персональных данных</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer select-none">
+                                    <input type="checkbox" class="w-4 h-4 accent-orange-500">
+                                    <span class="text-sm text-gray-300"> Соглашаюсь на обработку персональных данных
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex flex-col items-center lg:items-end gap-4">
+                            <button
+                                class="w-full lg:ml-[150px] sm:w-[320px] bg-[#c28a52] text-white py-3 rounded-full text-sm">
+                                Отправить</button>
+                            <button class="w-full sm:w-[320px] bg-[#6b3f1d] text-white py-3 rounded-full text-sm">
+                                Отмена</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-8 pt-6">
+                    <div class="">
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 1</span>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 2</span>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 3</span>
+                        </label>
+                    </div>
+                    <div class="">
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" checked name="radio2" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 1</span>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" name="radio2" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 2</span>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="radio" name="radio2" class="w-4 h-4 accent-amber-600">
+                            <span>Радио-кнопка 3</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="pt-8 ">
+                    <h2 class="text-xl font-medium">Выбор из списка</h2>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="relative">
+                            <select
+                                class="w-full bg-transparent border border-gray-500 rounded-md px-4 py-3 pr-10appearance-none focus:outline-none cursor-pointer">
+                                <option>Lorem ipsum</option>
+                                <option>Lorem ipsum, dolor sit</option>
+                                <option>Lorem ipsum, dolor sit</option>
+                                <option>Lorem ipsum, dolor sit</option>
+                            </select>>
+                            <div class="pointer-events-none absolute inset-y-0 right-3 flex items-center">
+                                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full bg-transparent border border-gray-500 rounded-md px-4 py-3 pr-10 appearance-none focus:outline-none cursor-pointer">
+                                <option>Lorem ipsum</option>
+                                <option>Lorem ipsun, dolor smit</option>
+                                <option>Lorem ipsun, dolor smit</option>
+                                <option>Lorem ipsun, dolor smit</option>
+                                <option>Lorem ipsum, dolor smit</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-3 flex items-center">
+                                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1200px] mx-auto px-4 py-12 text-white">
+            <div class="flex flex-col lg:flex-row gap-16">
+                <div class="flex-1 space-y-4">
+                    <h2 class="text-lg font-medium">неупорядоченный</h2>
+                    <div class="space-y-2">
+                        <div class="flex items-start gap-3">
+                            <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                            <p>Lorem ipsum, dolor smit</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                            <p>Lorem ipsum, dolor smit</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                            <p>Lorem ipsum, dolor smit Lorem ipsum, dolor smit</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                            <p>Lorem ipsum, dolor smit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 space-y-4">
+                    <h2 class="text-lg font-medium">упорядоченный</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex gap-3">
+                                <span>1.</span>
+                                <p>Lorem ipsum, dolor smit</p>
+                            </div>
+                            <div class="ml-6 mt-2 space-y-2">
+                                <div class="flex items-start gap-3">
+                                    <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                                    <p>Lorem ipsum, dolor smit</p>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                                    <p>Lorem ipsum, dolor smit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex gap-3">
+                                <span>2.</span>
+                                <p>Lorem ipsum, dolor smit</p>
+                            </div>
+                            <div class="ml-6 mt-2 space-y-2">
+                                <div class="flex items-start gap-3">
+                                    <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                                    <p>Lorem ipsum, dolor smit</p>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <span class="mt-2 w-1.5 h-1.5 bg-white rounded-full"></span>
+                                    <p>Lorem ipsum, dolor smit</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <h2 class="text-lg font-medium mb-4">Блок цитаты blockquote</h2>
+                <div class="relative bg-[#3A2A1F] p-6 rounded-sm border-l-4 border-amber-600">
+                    <div class="text-4xl text-amber-600  mb-3">“</div>
+                    <p class="text-sm text-gray-200 leading-relaxed">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="mt-4 font-semibold">Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="max-w-[1200px] m-auto px-4 py-10">
+        <div class="relative w-full h-[400px] sm:h-[500px] rounded-xl overflow-hidden">
+            <img src="Basemap image.png" alt="" class="absolute inset-0 w-full h-full object-cover"> 
+            <div class="absolute  bg-black/50"></div>
+            <div class="absolute mt-[150px] top-8 left-6  sm:top-10 sm:left-10  max-w-[90%] sm:max-w-[420px] bg-black/70  backdrop-blur-md border border-white/20 rounded-xl p-6">
+                <h2 class="text-2xl sm:text-3xl font-semibold mb-4">Адреса </h2>
+                <p class="text-sm text-gray-300 leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typespecimen book.</p>
+            </div>
+        </div>
+    </section>
+     <footer class="bg-[black]">
+    <div class="max-w-[1200px] m-auto px-4 py-10">
+      <div class="flex flex-col md:flex-row justify-between gap-10">
+        <div class="max-w-[260px]">
+          <img src="Refreshoes_LOGO копия 2.png" alt="">
+          <h3 class="text-xl font-semibold mb-3"> Refreshoes</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="max-w-[260px]"><p class="text-sm text-gray-400 mb-4 leading-relaxed">Lorem Ipsum is simply dummy text of the printing and</p>
+          <button class="bg-white text-black text-sm px-4 py-2 rounded-full"> +7 (999) 999-99-99</button>
+        </div>
+        <div>
+            <p>Главная</p>
+            <p>Контактная страница</p>
+            <p>Галерея</p>
+            <p>Видео галерея</p> 
+            <p>Фото галерея</p> </div>
+      </div>
+    </div>
+     </footer>
+</body>
+</html>
